@@ -1,0 +1,757 @@
+2018-12-10 16:32:13 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-10 17:55:36 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-10 23:18:45 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-10 23:18:46 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-11 0:28:07 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-11 0:28:08 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-11 12:24:15 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-11 12:24:16 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-11 12:43:13 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\providers\google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_model.php(99): Hybrid_Providers_Google->initialize()
+#2 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(229): Hybrid_Auth::setup('Google', Array)
+#5 C:\xampp\htdocs\fasc\catalog\model\extension\module\d_social_login.php(173): Hybrid_Auth::authenticate('Google')
+#6 C:\xampp\htdocs\storage\modification\system\engine\loader.php(251): ModelExtensionModuleDSocialLogin->remoteLogin(Array, 'http://fasc.loc...')
+#7 C:\xampp\htdocs\fasc\system\engine\proxy.php(47): Loader->{closure}(Array, Array)
+#8 C:\xampp\htdocs\fasc\catalog\controller\extension\module\d_social_login.php(148): Proxy->__call('remoteLogin', Array)
+#9 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerExtensionModuleDSocialLogin->login()
+#10 C:\xampp\htdocs\fasc\catalog\controller\startup\router.php(25): Action->execute(Object(Registry))
+#11 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerStartupRouter->index()
+#12 C:\xampp\htdocs\fasc\system\engine\router.php(67): Action->execute(Object(Registry))
+#13 C:\xampp\htdocs\fasc\system\engine\router.php(56): Router->execute(Object(Action))
+#14 C:\xampp\htdocs\fasc\system\framework.php(168): Router->dispatch(Object(Action), Object(Action))
+#15 C:\xampp\htdocs\fasc\system\startup.php(104): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\fasc\index.php(19): start('catalog')
+#17 {main}
+2018-12-11 12:43:19 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Yahoo.
+
+Trace:
+ #0 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\providers\yahoo.php(37): Hybrid_Provider_Model_OAuth2->initialize()
+#1 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_model.php(99): Hybrid_Providers_Yahoo->initialize()
+#2 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_adapter.php(101): Hybrid_Provider_Model->__construct('Yahoo', Array, Array)
+#3 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(277): Hybrid_Provider_Adapter->factory('Yahoo', Array)
+#4 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(229): Hybrid_Auth::setup('Yahoo', Array)
+#5 C:\xampp\htdocs\fasc\catalog\model\extension\module\d_social_login.php(173): Hybrid_Auth::authenticate('Yahoo')
+#6 C:\xampp\htdocs\storage\modification\system\engine\loader.php(251): ModelExtensionModuleDSocialLogin->remoteLogin(Array, 'http://fasc.loc...')
+#7 C:\xampp\htdocs\fasc\system\engine\proxy.php(47): Loader->{closure}(Array, Array)
+#8 C:\xampp\htdocs\fasc\catalog\controller\extension\module\d_social_login.php(148): Proxy->__call('remoteLogin', Array)
+#9 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerExtensionModuleDSocialLogin->login()
+#10 C:\xampp\htdocs\fasc\catalog\controller\startup\router.php(25): Action->execute(Object(Registry))
+#11 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerStartupRouter->index()
+#12 C:\xampp\htdocs\fasc\system\engine\router.php(67): Action->execute(Object(Registry))
+#13 C:\xampp\htdocs\fasc\system\engine\router.php(56): Router->execute(Object(Action))
+#14 C:\xampp\htdocs\fasc\system\framework.php(168): Router->dispatch(Object(Action), Object(Action))
+#15 C:\xampp\htdocs\fasc\system\startup.php(104): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\fasc\index.php(19): start('catalog')
+#17 {main}
+2018-12-11 12:45:08 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\providers\google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_model.php(99): Hybrid_Providers_Google->initialize()
+#2 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(229): Hybrid_Auth::setup('Google', Array)
+#5 C:\xampp\htdocs\fasc\catalog\model\extension\module\d_social_login.php(173): Hybrid_Auth::authenticate('Google')
+#6 C:\xampp\htdocs\storage\modification\system\engine\loader.php(251): ModelExtensionModuleDSocialLogin->remoteLogin(Array, 'http://fasc.loc...')
+#7 C:\xampp\htdocs\fasc\system\engine\proxy.php(47): Loader->{closure}(Array, Array)
+#8 C:\xampp\htdocs\fasc\catalog\controller\extension\module\d_social_login.php(148): Proxy->__call('remoteLogin', Array)
+#9 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerExtensionModuleDSocialLogin->login()
+#10 C:\xampp\htdocs\fasc\catalog\controller\startup\router.php(25): Action->execute(Object(Registry))
+#11 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerStartupRouter->index()
+#12 C:\xampp\htdocs\fasc\system\engine\router.php(67): Action->execute(Object(Registry))
+#13 C:\xampp\htdocs\fasc\system\engine\router.php(56): Router->execute(Object(Action))
+#14 C:\xampp\htdocs\fasc\system\framework.php(168): Router->dispatch(Object(Action), Object(Action))
+#15 C:\xampp\htdocs\fasc\system\startup.php(104): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\fasc\index.php(19): start('catalog')
+#17 {main}
+2018-12-11 12:50:39 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-11 12:57:45 - PHP Notice:  Undefined index: city in C:\xampp\htdocs\fasc\catalog\controller\account\address.php on line 441
+2018-12-11 13:00:10 - PHP Notice:  Undefined index: city in C:\xampp\htdocs\fasc\catalog\controller\account\address.php on line 441
+2018-12-11 13:00:36 - PHP Notice:  Undefined index: city in C:\xampp\htdocs\fasc\catalog\controller\account\address.php on line 441
+2018-12-11 13:01:59 - PHP Notice:  Undefined index: city in C:\xampp\htdocs\fasc\catalog\controller\account\address.php on line 441
+2018-12-11 14:12:48 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\fasc\catalog\controller\common\menu.php on line 15
+2018-12-11 14:18:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 14:18:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 14:18:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 14:18:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 14:18:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 14:18:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 14:18:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 14:18:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 14:18:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 14:18:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 14:18:16 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 16:49:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 16:49:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 16:49:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 16:49:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 16:49:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 16:49:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 16:49:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 16:49:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 16:49:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 16:49:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-11 16:49:03 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 81
+2018-12-12 13:01:18 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 13:01:19 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 13:02:17 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 13:02:18 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 13:51:53 - PHP Unknown:  Object of class Cart\Customer could not be converted to string in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 101
+2018-12-12 14:02:32 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\fasc\system\library\template\Twig\Environment.php(403) : eval()'d code on line 101
+2018-12-12 14:11:11 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\fasc\catalog\controller\checkout\shipping_address.php on line 116
+2018-12-12 14:11:11 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\fasc\catalog\controller\checkout\shipping_address.php on line 120
+2018-12-12 14:11:54 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\fasc\catalog\controller\checkout\shipping_address.php on line 116
+2018-12-12 14:11:54 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\fasc\catalog\controller\checkout\shipping_address.php on line 120
+2018-12-12 14:15:17 - PHP Notice:  Undefined index: company in C:\xampp\htdocs\fasc\catalog\model\account\address.php on line 4
+2018-12-12 14:15:49 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 14:15:50 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 14:21:10 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\checkout\shipping_address.php on line 138
+2018-12-12 14:21:10 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\checkout\shipping_address.php on line 144
+2018-12-12 14:21:55 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\checkout\shipping_address.php on line 138
+2018-12-12 14:21:55 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\checkout\shipping_address.php on line 144
+2018-12-12 14:24:09 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 14:24:10 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 15:38:45 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 16:21:55 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 18:36:57 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 18:54:29 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 18:57:19 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\fasc\system\library\mail\mail.php on line 77
+2018-12-12 19:51:40 - PHP Notice:  Indirect modification of overloaded property ControllerAccountVerify::$error has no effect in C:\xampp\htdocs\fasc\catalog\controller\account\verify.php on line 48
+2018-12-12 19:55:25 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\fasc\catalog\controller\account\verify.php on line 6
+2018-12-12 20:19:59 - PHP Notice:  Undefined index: token in C:\xampp\htdocs\fasc\catalog\controller\account\verify.php on line 58
+2018-12-12 20:19:59 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\fasc\catalog\controller\account\verify.php on line 60
+2018-12-12 20:20:16 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\fasc\catalog\controller\account\verify.php on line 60
+2018-12-12 20:21:19 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\fasc\catalog\controller\account\verify.php on line 60
+2018-12-12 20:21:49 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\fasc\catalog\controller\account\verify.php on line 61
+2018-12-12 20:22:17 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\fasc\catalog\controller\account\verify.php on line 60
+2018-12-12 21:00:25 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\providers\google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_model.php(99): Hybrid_Providers_Google->initialize()
+#2 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(229): Hybrid_Auth::setup('Google', Array)
+#5 C:\xampp\htdocs\fasc\catalog\model\extension\module\d_social_login.php(173): Hybrid_Auth::authenticate('Google')
+#6 C:\xampp\htdocs\storage\modification\system\engine\loader.php(251): ModelExtensionModuleDSocialLogin->remoteLogin(Array, 'http://fasc.loc...')
+#7 C:\xampp\htdocs\fasc\system\engine\proxy.php(47): Loader->{closure}(Array, Array)
+#8 C:\xampp\htdocs\fasc\catalog\controller\extension\module\d_social_login.php(148): Proxy->__call('remoteLogin', Array)
+#9 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerExtensionModuleDSocialLogin->login()
+#10 C:\xampp\htdocs\fasc\catalog\controller\startup\router.php(25): Action->execute(Object(Registry))
+#11 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerStartupRouter->index()
+#12 C:\xampp\htdocs\fasc\system\engine\router.php(67): Action->execute(Object(Registry))
+#13 C:\xampp\htdocs\fasc\system\engine\router.php(56): Router->execute(Object(Action))
+#14 C:\xampp\htdocs\fasc\system\framework.php(168): Router->dispatch(Object(Action), Object(Action))
+#15 C:\xampp\htdocs\fasc\system\startup.php(104): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\fasc\index.php(19): start('catalog')
+#17 {main}
+2018-12-12 21:00:31 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Yahoo.
+
+Trace:
+ #0 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\providers\yahoo.php(37): Hybrid_Provider_Model_OAuth2->initialize()
+#1 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_model.php(99): Hybrid_Providers_Yahoo->initialize()
+#2 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_adapter.php(101): Hybrid_Provider_Model->__construct('Yahoo', Array, Array)
+#3 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(277): Hybrid_Provider_Adapter->factory('Yahoo', Array)
+#4 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(229): Hybrid_Auth::setup('Yahoo', Array)
+#5 C:\xampp\htdocs\fasc\catalog\model\extension\module\d_social_login.php(173): Hybrid_Auth::authenticate('Yahoo')
+#6 C:\xampp\htdocs\storage\modification\system\engine\loader.php(251): ModelExtensionModuleDSocialLogin->remoteLogin(Array, 'http://fasc.loc...')
+#7 C:\xampp\htdocs\fasc\system\engine\proxy.php(47): Loader->{closure}(Array, Array)
+#8 C:\xampp\htdocs\fasc\catalog\controller\extension\module\d_social_login.php(148): Proxy->__call('remoteLogin', Array)
+#9 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerExtensionModuleDSocialLogin->login()
+#10 C:\xampp\htdocs\fasc\catalog\controller\startup\router.php(25): Action->execute(Object(Registry))
+#11 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerStartupRouter->index()
+#12 C:\xampp\htdocs\fasc\system\engine\router.php(67): Action->execute(Object(Registry))
+#13 C:\xampp\htdocs\fasc\system\engine\router.php(56): Router->execute(Object(Action))
+#14 C:\xampp\htdocs\fasc\system\framework.php(168): Router->dispatch(Object(Action), Object(Action))
+#15 C:\xampp\htdocs\fasc\system\startup.php(104): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\fasc\index.php(19): start('catalog')
+#17 {main}
+2018-12-12 21:00:33 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\providers\google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_model.php(99): Hybrid_Providers_Google->initialize()
+#2 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(229): Hybrid_Auth::setup('Google', Array)
+#5 C:\xampp\htdocs\fasc\catalog\model\extension\module\d_social_login.php(173): Hybrid_Auth::authenticate('Google')
+#6 C:\xampp\htdocs\storage\modification\system\engine\loader.php(251): ModelExtensionModuleDSocialLogin->remoteLogin(Array, 'http://fasc.loc...')
+#7 C:\xampp\htdocs\fasc\system\engine\proxy.php(47): Loader->{closure}(Array, Array)
+#8 C:\xampp\htdocs\fasc\catalog\controller\extension\module\d_social_login.php(148): Proxy->__call('remoteLogin', Array)
+#9 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerExtensionModuleDSocialLogin->login()
+#10 C:\xampp\htdocs\fasc\catalog\controller\startup\router.php(25): Action->execute(Object(Registry))
+#11 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerStartupRouter->index()
+#12 C:\xampp\htdocs\fasc\system\engine\router.php(67): Action->execute(Object(Registry))
+#13 C:\xampp\htdocs\fasc\system\engine\router.php(56): Router->execute(Object(Action))
+#14 C:\xampp\htdocs\fasc\system\framework.php(168): Router->dispatch(Object(Action), Object(Action))
+#15 C:\xampp\htdocs\fasc\system\startup.php(104): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\fasc\index.php(19): start('catalog')
+#17 {main}
+2018-12-12 21:00:36 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Yahoo.
+
+Trace:
+ #0 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\providers\yahoo.php(37): Hybrid_Provider_Model_OAuth2->initialize()
+#1 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_model.php(99): Hybrid_Providers_Yahoo->initialize()
+#2 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_adapter.php(101): Hybrid_Provider_Model->__construct('Yahoo', Array, Array)
+#3 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(277): Hybrid_Provider_Adapter->factory('Yahoo', Array)
+#4 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(229): Hybrid_Auth::setup('Yahoo', Array)
+#5 C:\xampp\htdocs\fasc\catalog\model\extension\module\d_social_login.php(173): Hybrid_Auth::authenticate('Yahoo')
+#6 C:\xampp\htdocs\storage\modification\system\engine\loader.php(251): ModelExtensionModuleDSocialLogin->remoteLogin(Array, 'http://fasc.loc...')
+#7 C:\xampp\htdocs\fasc\system\engine\proxy.php(47): Loader->{closure}(Array, Array)
+#8 C:\xampp\htdocs\fasc\catalog\controller\extension\module\d_social_login.php(148): Proxy->__call('remoteLogin', Array)
+#9 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerExtensionModuleDSocialLogin->login()
+#10 C:\xampp\htdocs\fasc\catalog\controller\startup\router.php(25): Action->execute(Object(Registry))
+#11 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerStartupRouter->index()
+#12 C:\xampp\htdocs\fasc\system\engine\router.php(67): Action->execute(Object(Registry))
+#13 C:\xampp\htdocs\fasc\system\engine\router.php(56): Router->execute(Object(Action))
+#14 C:\xampp\htdocs\fasc\system\framework.php(168): Router->dispatch(Object(Action), Object(Action))
+#15 C:\xampp\htdocs\fasc\system\startup.php(104): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\fasc\index.php(19): start('catalog')
+#17 {main}
+2018-12-12 21:00:39 - Missing provider application credentials.
+
+HybridAuth Error: Your application id and secret are required in order to connect to Google.
+
+Trace:
+ #0 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\providers\google.php(28): Hybrid_Provider_Model_OAuth2->initialize()
+#1 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_model.php(99): Hybrid_Providers_Google->initialize()
+#2 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\provider_adapter.php(101): Hybrid_Provider_Model->__construct('Google', Array, Array)
+#3 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(277): Hybrid_Provider_Adapter->factory('Google', Array)
+#4 C:\xampp\htdocs\fasc\system\library\d_social_login\hybrid\auth.php(229): Hybrid_Auth::setup('Google', Array)
+#5 C:\xampp\htdocs\fasc\catalog\model\extension\module\d_social_login.php(173): Hybrid_Auth::authenticate('Google')
+#6 C:\xampp\htdocs\storage\modification\system\engine\loader.php(251): ModelExtensionModuleDSocialLogin->remoteLogin(Array, 'http://fasc.loc...')
+#7 C:\xampp\htdocs\fasc\system\engine\proxy.php(47): Loader->{closure}(Array, Array)
+#8 C:\xampp\htdocs\fasc\catalog\controller\extension\module\d_social_login.php(148): Proxy->__call('remoteLogin', Array)
+#9 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerExtensionModuleDSocialLogin->login()
+#10 C:\xampp\htdocs\fasc\catalog\controller\startup\router.php(25): Action->execute(Object(Registry))
+#11 C:\xampp\htdocs\storage\modification\system\engine\action.php(79): ControllerStartupRouter->index()
+#12 C:\xampp\htdocs\fasc\system\engine\router.php(67): Action->execute(Object(Registry))
+#13 C:\xampp\htdocs\fasc\system\engine\router.php(56): Router->execute(Object(Action))
+#14 C:\xampp\htdocs\fasc\system\framework.php(168): Router->dispatch(Object(Action), Object(Action))
+#15 C:\xampp\htdocs\fasc\system\startup.php(104): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\fasc\index.php(19): start('catalog')
+#17 {main}
+2018-12-12 22:07:55 - PHP Notice:  Undefined index: email in C:\xampp\htdocs\fasc\catalog\controller\account\login.php on line 160
+2018-12-12 22:07:55 - PHP Notice:  Undefined index: email in C:\xampp\htdocs\fasc\catalog\controller\account\login.php on line 167
+2018-12-12 22:12:04 - PHP Notice:  Undefined index: email in C:\xampp\htdocs\fasc\catalog\controller\account\login.php on line 173
+2018-12-12 22:12:04 - PHP Notice:  Undefined index: email in C:\xampp\htdocs\fasc\catalog\controller\account\login.php on line 180
+2018-12-21 16:26:55 - PHP Notice:  Undefined index: api_token in C:\xampp\htdocs\fasc\catalog\controller\startup\session.php on line 8
+2018-12-21 16:27:38 - PHP Notice:  Undefined index: api_token in C:\xampp\htdocs\fasc\catalog\controller\startup\session.php on line 8
+2018-12-21 16:28:30 - PHP Notice:  Undefined index: api_token in C:\xampp\htdocs\fasc\catalog\controller\startup\session.php on line 8
+2018-12-21 16:28:40 - PHP Notice:  Undefined index: api_token in C:\xampp\htdocs\fasc\catalog\controller\startup\session.php on line 8
+2018-12-21 16:42:42 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 5
+2018-12-21 16:42:49 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 5
+2018-12-21 16:42:55 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 5
+2018-12-21 16:43:05 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 5
+2018-12-21 16:43:06 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 5
+2018-12-21 16:49:31 - PHP Notice:  Trying to get property 'response' of non-object in C:\xampp\htdocs\fasc\catalog\controller\api\utils.php on line 11
+2018-12-21 16:50:19 - PHP Notice:  Undefined variable: clss_inst in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 11
+2018-12-21 16:50:19 - PHP Notice:  Trying to get property 'response' of non-object in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 11
+2018-12-21 16:51:52 - PHP Notice:  Undefined variable: clss_inst in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 9
+2018-12-21 16:51:52 - PHP Notice:  Trying to get property 'response' of non-object in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 9
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 15:52:14 - PHP Warning:  array_push() expects at least 2 parameters, 1 given in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 17:26:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\storage\modification\system\engine\loader.php on line 83
+2018-12-22 17:26:19 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\storage\modification\system\engine\loader.php on line 83
+2018-12-22 18:16:15 - PHP Notice:  Undefined variable: query in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 32
+2018-12-22 18:16:15 - PHP Notice:  Trying to get property 'rows' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 32
+2018-12-22 18:16:15 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 33
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:30:33 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  Attempt to assign property 'title' of non-object in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 61
+2018-12-22 18:35:50 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 18:36:10 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 21
+2018-12-22 20:31:06 - PHP Notice:  Undefined index: store in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 39
+2018-12-22 20:31:06 - PHP Notice:  Undefined index: cat in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 42
+2018-12-22 20:31:06 - PHP Notice:  Undefined index: subcat in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 45
+2018-12-22 23:53:17 - PHP Notice:  Undefined variable: category_info in C:\xampp\htdocs\fasc\catalog\controller\api\category.php on line 17
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: product_seo_url in C:\xampp\htdocs\fasc\admin\controller\catalog\product.php on line 1193
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: sku in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: upc in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: ean in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: jan in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: isbn in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: mpn in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: location in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: quantity in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: minimum in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: subtract in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: stock_status_id in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: date_available in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: manufacturer_id in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: shipping in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: price in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: points in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: weight in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: weight_class_id in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: length in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: width in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: height in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: length_class_id in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: tax_class_id in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: sort_order in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: description in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 13
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: tag in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 13
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: meta_description in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 13
+2018-12-23 0:08:13 - PHP Notice:  Undefined index: meta_keyword in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 13
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: product_seo_url in C:\xampp\htdocs\fasc\admin\controller\catalog\product.php on line 1193
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: sku in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: upc in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: ean in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: jan in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: isbn in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: mpn in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: location in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: quantity in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: minimum in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: subtract in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: stock_status_id in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: date_available in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: manufacturer_id in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: shipping in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: price in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: points in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: weight in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: weight_class_id in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: length in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: width in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: height in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: length_class_id in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: tax_class_id in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: sort_order in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 4
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: description in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 13
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: tag in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 13
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: meta_description in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 13
+2018-12-23 0:10:14 - PHP Notice:  Undefined index: meta_keyword in C:\xampp\htdocs\fasc\admin\model\catalog\product.php on line 13
+2018-12-28 22:08:23 - PHP Notice:  Undefined index: stock in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 165
+2018-12-28 22:08:23 - PHP Notice:  Undefined index: pid in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 165
+2018-12-28 22:09:37 - PHP Notice:  Undefined index: stock in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 165
+2018-12-28 22:09:37 - PHP Notice:  Undefined index: pid in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 165
+2018-12-28 22:50:14 - PHP Notice:  Undefined variable: fall in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 56
+2018-12-28 22:50:35 - PHP Notice:  Undefined variable: fall in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 56
+2018-12-28 22:52:34 - PHP Notice:  Undefined index: tag in C:\xampp\htdocs\fasc\catalog\model\admin\product.php on line 147
+2018-12-28 22:52:34 - PHP Notice:  Undefined index: meta_description in C:\xampp\htdocs\fasc\catalog\model\admin\product.php on line 147
+2018-12-28 22:52:34 - PHP Notice:  Undefined index: meta_keyword in C:\xampp\htdocs\fasc\catalog\model\admin\product.php on line 147
+2018-12-28 22:57:34 - PHP Notice:  Undefined index: tag in C:\xampp\htdocs\fasc\catalog\model\admin\product.php on line 147
+2018-12-28 22:57:34 - PHP Notice:  Undefined index: meta_description in C:\xampp\htdocs\fasc\catalog\model\admin\product.php on line 147
+2018-12-28 22:57:34 - PHP Notice:  Undefined index: meta_keyword in C:\xampp\htdocs\fasc\catalog\model\admin\product.php on line 147
+2018-12-28 23:00:53 - PHP Notice:  Undefined index: tag in C:\xampp\htdocs\fasc\catalog\model\admin\product.php on line 147
+2018-12-28 23:00:53 - PHP Notice:  Undefined index: meta_description in C:\xampp\htdocs\fasc\catalog\model\admin\product.php on line 147
+2018-12-28 23:00:53 - PHP Notice:  Undefined index: meta_keyword in C:\xampp\htdocs\fasc\catalog\model\admin\product.php on line 147
+2018-12-29 23:39:13 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 165
+2018-12-29 23:39:23 - PHP Notice:  Undefined index: status in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 165
+2018-12-30 20:32:58 - PHP Notice:  Undefined index: api_token in C:\xampp\htdocs\fasc\catalog\controller\startup\session.php on line 8
+2018-12-30 22:42:40 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\controller\api\image.php on line 15
+2018-12-30 22:43:07 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\controller\api\image.php on line 15
+2018-12-30 22:43:10 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\controller\api\image.php on line 15
+2018-12-31 15:36:28 - PHP Notice:  Undefined index: product_id in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 11
+2018-12-31 16:21:11 - PHP Notice:  Undefined variable: store_inited in C:\xampp\htdocs\fasc\store.php on line 5
+2018-12-31 19:00:26 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\storage\modification\system\engine\loader.php on line 83
+2018-12-31 23:49:43 - PHP Notice:  Undefined index: api_token in C:\xampp\htdocs\fasc\catalog\controller\startup\session.php on line 8
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 1:35:36 - PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\xampp\htdocs\fasc\catalog\controller\api\common.php on line 25
+2019-01-03 18:17:50 - PHP Warning:  fopen(C:/xampp/htdocs/storage/cache/cache.catalog.language.1546543070): failed to open stream: Permission denied in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 49
+2019-01-03 18:17:50 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 51
+2019-01-03 18:17:50 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 53
+2019-01-03 18:17:50 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 51
+
+2019-01-03 18:17:50 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 57
+2019-01-03 18:17:50 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 59
+2019-01-03 18:17:50 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 53
+2019-01-03 18:17:50 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 55
+2019-01-03 18:17:50 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 57
+2019-01-03 18:17:50 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 59
+2019-01-03 22:50:24 - PHP Notice:  Undefined variable: folderPath in C:\xampp\htdocs\fasc\catalog\controller\api\image.php on line 54
+2019-01-03 22:50:24 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\fasc\catalog\controller\api\image.php on line 66
+2019-01-03 22:50:24 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\fasc\catalog\controller\api\image.php on line 68
+2019-01-04 1:25:23 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1546568493): No such file or directory in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-04 14:31:08 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\fasc\catalog\controller\api\image.php on line 67
+2019-01-04 14:31:08 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\fasc\catalog\controller\api\image.php on line 69
+2019-01-06 15:45:16 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1546793109): Permission denied in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-06 19:34:37 - PHP Notice:  Undefined index: payment_address in C:\xampp\htdocs\fasc\catalog\controller\checkout\payment_method.php on line 53
+2019-01-06 19:34:38 - PHP Notice:  Undefined index: payment_address in C:\xampp\htdocs\fasc\catalog\controller\checkout\payment_method.php on line 53
+2019-01-06 19:35:16 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\model\extension\payment\cod.php on line 6
+2019-01-06 19:35:16 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\model\extension\payment\cod.php on line 6
+2019-01-06 19:35:34 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:35:34 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:35:35 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:35:35 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:35:35 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:35:35 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:35:42 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:35:42 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:36:26 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:36:26 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:36:27 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:36:27 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:36:27 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:36:27 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 173
+2019-01-06 19:41:43 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:41:43 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:41:44 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:41:44 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:41:45 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:41:45 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:47:57 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:47:57 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:47:57 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:47:57 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:47:58 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:47:58 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:10 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:10 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:10 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:10 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:11 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:11 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:38 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:38 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:39 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:39 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:39 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:48:39 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 174
+2019-01-06 19:49:41 - PHP Notice:  Undefined index: country_id in C:\xampp\htdocs\fasc\catalog\model\extension\payment\cod.php on line 6
+2019-01-06 19:49:41 - PHP Notice:  Undefined index: zone_id in C:\xampp\htdocs\fasc\catalog\model\extension\payment\cod.php on line 6
+2019-01-06 20:03:33 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 139
+2019-01-06 20:03:33 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 140
+2019-01-06 20:03:33 - PHP Notice:  Undefined index: company in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 141
+2019-01-06 20:03:33 - PHP Notice:  Undefined index: address_1 in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 142
+2019-01-06 20:03:33 - PHP Notice:  Undefined index: address_2 in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 143
+2019-01-06 20:03:33 - PHP Notice:  Undefined index: city in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 144
+2019-01-06 20:03:33 - PHP Notice:  Undefined index: postcode in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 145
+2019-01-06 20:03:33 - PHP Notice:  Undefined index: zone in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 146
+2019-01-06 20:03:33 - PHP Notice:  Undefined index: country in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 148
+2019-01-06 20:03:33 - PHP Notice:  Undefined index: address_format in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 150
+2019-01-06 20:04:20 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 139
+2019-01-06 20:04:20 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 140
+2019-01-06 20:04:20 - PHP Notice:  Undefined index: company in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 141
+2019-01-06 20:04:20 - PHP Notice:  Undefined index: address_1 in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 142
+2019-01-06 20:04:20 - PHP Notice:  Undefined index: address_2 in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 143
+2019-01-06 20:04:20 - PHP Notice:  Undefined index: city in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 144
+2019-01-06 20:04:20 - PHP Notice:  Undefined index: postcode in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 145
+2019-01-06 20:04:20 - PHP Notice:  Undefined index: zone in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 146
+2019-01-06 20:04:20 - PHP Notice:  Undefined index: country in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 148
+2019-01-06 20:04:20 - PHP Notice:  Undefined index: address_format in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 150
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_firstname in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_lastname in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_company in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_address_1 in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_address_2 in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_city in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_postcode in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_country in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_country_id in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_zone in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_zone_id in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-06 20:05:28 - PHP Notice:  Undefined index: payment_address_format in C:\xampp\htdocs\fasc\catalog\model\checkout\order.php on line 4
+2019-01-07 13:26:34 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1546824665): No such file or directory in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 17
+2019-01-09 1:36:29 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1546993985): No such file or directory in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 17
+2019-01-09 13:40:58 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547043784): No such file or directory in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-09 15:03:55 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547049835): Resource temporarily unavailable in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-09 16:13:20 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\fasc\catalog\controller\api\banner.php on line 13
+2019-01-09 18:52:45 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547063038): Permission denied in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-10 22:27:40 - PHP Notice:  Undefined offset: 2 in C:\xampp\htdocs\fasc\catalog\controller\extension\module\d_social_login.php on line 65
+2019-01-10 22:30:13 - PHP Warning:  file_get_contents(): Filename cannot be empty in C:\xampp\htdocs\fasc\catalog\model\account\otp.php on line 12
+2019-01-10 22:39:41 - PHP Warning:  file_get_contents(): Filename cannot be empty in C:\xampp\htdocs\fasc\catalog\model\account\otp.php on line 12
+2019-01-10 22:46:01 - PHP Warning:  file_get_contents(): Filename cannot be empty in C:\xampp\htdocs\fasc\catalog\model\account\otp.php on line 12
+2019-01-11 0:14:49 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 41
+2019-01-11 1:15:29 - PHP Notice:  Undefined index: language_id in C:\xampp\htdocs\fasc\catalog\model\admin\product.php on line 498
+2019-01-11 1:15:29 - PHP Notice:  Undefined index: language_id in C:\xampp\htdocs\fasc\catalog\model\admin\product.php on line 498
+2019-01-11 1:21:20 - PHP Notice:  Undefined variable: des in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 129
+2019-01-11 1:21:20 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 129
+2019-01-11 1:22:22 - PHP Notice:  Undefined variable: des in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 129
+2019-01-11 1:22:22 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 129
+2019-01-11 1:23:00 - PHP Notice:  Undefined variable: des in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 129
+2019-01-11 1:23:00 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 129
+2019-01-11 1:23:20 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 129
+2019-01-11 1:25:42 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\fasc\catalog\controller\api\product.php on line 128
+2019-01-11 1:56:01 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547175326): No such file or directory in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-11 23:50:37 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.admin.language.1547249339): Permission denied in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 17
+2019-01-12 14:38:08 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\storage\modification\system\engine\loader.php on line 83
+2019-01-12 14:39:06 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\storage\modification\system\engine\loader.php on line 83
+2019-01-12 14:39:37 - PHP Notice:  Undefined variable: store_data in C:\xampp\htdocs\fasc\catalog\controller\api\setting.php on line 21
+2019-01-12 18:59:59 - PHP Notice:  Undefined variable: query in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 7
+2019-01-12 18:59:59 - PHP Notice:  Trying to get property 'num_rows' of non-object in C:\xampp\htdocs\fasc\catalog\controller\startup\startup.php on line 7
+2019-01-12 20:11:56 - PHP Notice:  Undefined index: config_url in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 4
+2019-01-12 20:11:56 - PHP Notice:  Undefined index: config_ssl in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 4
+2019-01-12 22:50:28 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547337028): Resource temporarily unavailable in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-14 13:44:52 - PHP Notice:  Undefined index: ssl in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 11
+2019-01-14 13:44:52 - PHP Notice:  Undefined index: url in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 11
+2019-01-14 13:44:52 - PHP Notice:  Undefined index: meta_title in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 11
+2019-01-14 13:44:52 - PHP Notice:  Undefined index: meta_description in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 11
+2019-01-14 13:44:52 - PHP Notice:  Undefined index: meta_keyword in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 11
+2019-01-14 13:44:52 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 11
+2019-01-14 13:44:52 - PHP Notice:  Undefined index: address in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 11
+2019-01-14 13:44:52 - PHP Notice:  Undefined index: email in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 11
+2019-01-14 13:44:52 - PHP Notice:  Undefined index: telephone in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 11
+2019-01-14 15:39:04 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547483914): No such file or directory in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-14 17:33:49 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547488123): Permission denied in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-14 22:02:12 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547498536): No such file or directory in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 17
+2019-01-15 12:57:58 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-15 12:58:02 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-15 12:58:17 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-15 12:58:34 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-15 12:58:39 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-15 12:58:45 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-15 13:00:03 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-15 16:05:57 - PHP Notice:  Undefined variable: password in C:\xampp\htdocs\fasc\catalog\controller\api\users.php on line 39
+2019-01-15 16:05:57 - PHP Notice:  Undefined variable: password in C:\xampp\htdocs\fasc\catalog\controller\api\users.php on line 41
+2019-01-15 17:18:27 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-15 21:08:12 - PHP Notice:  Undefined property: Proxy::$currentUser in C:\xampp\htdocs\fasc\system\engine\proxy.php on line 20
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:15:50 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 40
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:16:49 - PHP Notice:  Undefined variable: ke in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 39
+2019-01-15 21:21:27 - PHP Notice:  Undefined variable: loaded in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 14
+2019-01-15 21:21:27 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\fasc\catalog\controller\api\access.php on line 32
+2019-01-15 21:21:42 - PHP Notice:  Undefined offset: 1 in C:\xampp\htdocs\fasc\catalog\controller\api\access.php on line 32
+2019-01-16 17:42:38 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547663883): No such file or directory in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-16 20:54:53 - PHP Notice:  Undefined variable: ci in C:\xampp\htdocs\fasc\catalog\controller\api\cities.php on line 12
+2019-01-16 20:54:53 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\fasc\catalog\controller\api\cities.php on line 12
+2019-01-16 23:38:42 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547685522): Resource temporarily unavailable in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-17 16:43:08 - PHP Notice:  Undefined index: low in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 120
+2019-01-17 16:43:08 - PHP Notice:  Undefined index: high in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 121
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: name in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 125
+2019-01-17 21:09:27 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-17 21:09:43 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\fasc\catalog\model\catalog\prt.php on line 126
+2019-01-18 11:31:00 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547814497): No such file or directory in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-18 11:35:49 - PHP Warning:  file_get_contents(): Filename cannot be empty in C:\xampp\htdocs\fasc\catalog\model\account\otp.php on line 12
+2019-01-18 12:19:01 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-18 12:19:06 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-18 12:19:07 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-18 12:20:09 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-18 12:20:28 - PHP Warning:  Use of undefined constant AG_ADMIN_OR_OWNER - assumed 'AG_ADMIN_OR_OWNER' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 50
+2019-01-18 13:20:53 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1547821253): Resource temporarily unavailable in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 68
+2019-01-18 13:29:18 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\fasc\catalog\controller\api\pos.php on line 36
+2019-01-18 13:30:17 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\fasc\catalog\controller\api\pos.php on line 36
+2019-01-19 11:44:26 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\fasc\catalog\model\admin\report.php on line 80
+2019-01-19 11:44:26 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\fasc\catalog\model\admin\report.php on line 80
+2019-01-21 16:35:00 - PHP Warning:  unlink(C:/xampp/htdocs/storage/cache/cache.catalog.language.1548083374): Permission denied in C:\xampp\htdocs\fasc\system\library\cache\file.php on line 17
+2019-01-21 17:50:00 - PHP Notice:  Undefined variable: lang_id in C:\xampp\htdocs\fasc\catalog\model\admin\gls.php on line 17
+2019-01-21 17:50:00 - PHP Notice:  Undefined variable: lang_id in C:\xampp\htdocs\fasc\catalog\model\admin\gls.php on line 17
+2019-01-21 17:50:00 - PHP Notice:  Undefined variable: lang_id in C:\xampp\htdocs\fasc\catalog\model\admin\gls.php on line 17
+2019-01-21 17:50:00 - PHP Notice:  Undefined variable: lang_id in C:\xampp\htdocs\fasc\catalog\model\admin\gls.php on line 17
+2019-01-21 18:12:34 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\fasc\catalog\model\admin\gls.php on line 25
+2019-01-21 18:12:41 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\fasc\catalog\model\admin\gls.php on line 25
+2019-01-21 19:19:52 - PHP Notice:  Undefined index: fullname in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 35
+2019-01-21 19:19:55 - PHP Notice:  Undefined index: fullname in C:\xampp\htdocs\fasc\catalog\model\admin\users.php on line 35
+2019-01-22 12:14:29 - PHP Notice:  Undefined variable: userData in C:\xampp\htdocs\fasc\catalog\controller\api\users.php on line 187
+2019-01-23 9:26:11 - PHP Notice:  Undefined index: telephone in C:\xampp\htdocs\fasc\catalog\controller\api\csc.php on line 23
+2019-01-23 9:26:14 - PHP Notice:  Undefined index: telephone in C:\xampp\htdocs\fasc\catalog\controller\api\csc.php on line 41
+2019-01-23 9:26:14 - PHP Warning:  file_get_contents(): Filename cannot be empty in C:\xampp\htdocs\fasc\catalog\model\account\otp.php on line 12
+2019-01-23 9:26:36 - PHP Notice:  Undefined index: telephone in C:\xampp\htdocs\fasc\catalog\controller\api\csc.php on line 41
+2019-01-23 9:26:36 - PHP Warning:  file_get_contents(): Filename cannot be empty in C:\xampp\htdocs\fasc\catalog\model\account\otp.php on line 12
+2019-01-23 9:27:04 - PHP Warning:  file_get_contents(): Filename cannot be empty in C:\xampp\htdocs\fasc\catalog\model\account\otp.php on line 12
+2019-01-23 19:08:34 - PHP Notice:  Undefined index: config_order_phone in C:\xampp\htdocs\fasc\catalog\controller\api\asd.php on line 33
+2019-01-23 19:09:15 - PHP Notice:  Undefined index: order_phone in C:\xampp\htdocs\fasc\catalog\controller\api\asd.php on line 33
+2019-01-24 13:23:09 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\fasc\catalog\controller\checkout\checkout.php on line 105
+2019-01-24 13:23:09 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\fasc\catalog\controller\checkout\checkout.php on line 105
+2019-01-24 13:23:09 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\fasc\catalog\controller\checkout\checkout.php on line 105
+2019-01-24 13:23:09 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\fasc\catalog\controller\checkout\checkout.php on line 105
+2019-01-24 13:23:09 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\fasc\catalog\controller\checkout\checkout.php on line 105
+2019-01-24 16:22:55 - PHP Notice:  Undefined variable: addr_id in C:\xampp\htdocs\fasc\catalog\controller\api\address.php on line 37
+2019-01-24 18:51:27 - PHP Notice:  Undefined index: del_timing in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 328
+2019-01-24 18:51:27 - PHP Warning:  Use of undefined constant DB_PREFDB_PREFIXIX - assumed 'DB_PREFDB_PREFIXIX' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 330
+2019-01-24 18:52:05 - PHP Notice:  Undefined index: del_timing in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 328
+2019-01-24 18:53:48 - PHP Notice:  Undefined index: del_timing in C:\xampp\htdocs\fasc\catalog\controller\checkout\confirm.php on line 328
+2019-01-25 0:23:20 - PHP Warning:  Use of undefined constant DP_PREFIX - assumed 'DP_PREFIX' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\fasc\catalog\controller\api\pos.php on line 118
+2019-01-25 11:18:32 - PHP Notice:  Undefined index: user_type in C:\xampp\htdocs\fasc\catalog\controller\api\orderadm.php on line 80
+2019-01-25 11:18:46 - PHP Notice:  Undefined index: limited in C:\xampp\htdocs\fasc\catalog\model\admin\order.php on line 182
+2019-01-25 11:19:12 - PHP Notice:  Undefined index: limited in C:\xampp\htdocs\fasc\catalog\model\admin\order.php on line 182
+2019-01-25 14:34:32 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:34:32 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:34:32 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:34:32 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:34:32 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:34:32 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
+2019-01-25 14:34:34 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:34:34 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:34:34 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:34:34 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:34:34 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:34:34 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
+2019-01-25 14:34:47 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:34:47 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:34:47 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:34:47 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:34:47 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:34:47 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
+2019-01-25 14:35:13 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:35:13 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:35:13 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:35:13 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:35:13 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:35:13 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
+2019-01-25 14:35:15 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:35:15 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:35:15 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:35:15 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:35:15 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:35:15 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
+2019-01-25 14:35:19 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:35:19 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:35:19 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:35:19 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:35:19 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:35:19 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
+2019-01-25 14:35:51 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:35:51 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:35:51 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:35:51 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:35:51 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:35:51 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
+2019-01-25 14:35:56 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:35:56 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:35:56 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:35:56 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:35:56 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:35:56 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
+2019-01-25 14:36:33 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:36:33 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:36:33 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:36:33 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:36:33 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:36:33 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
+2019-01-25 14:36:36 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:36:36 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:36:36 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:36:36 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:36:36 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:36:36 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
+2019-01-25 14:38:04 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:38:04 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:38:04 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:38:04 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:38:04 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:38:04 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
+2019-01-25 14:38:20 - PHP Notice:  Undefined index: city_id in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 59
+2019-01-25 14:38:20 - PHP Notice:  Undefined index: name_1 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 62
+2019-01-25 14:38:20 - PHP Notice:  Undefined index: name_2 in C:\xampp\htdocs\fasc\catalog\model\admin\setting.php on line 63
+2019-01-25 14:38:20 - PHP Notice:  Undefined index: timing_from in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 55
+2019-01-25 14:38:20 - PHP Notice:  Undefined index: timing_to in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 56
+2019-01-25 14:38:20 - PHP Notice:  Undefined index: min_total in C:\xampp\htdocs\fasc\catalog\model\admin\store.php on line 69
